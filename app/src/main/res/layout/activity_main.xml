@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:id="@+id/main"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/light"
+        android:layout_width="30dp"
+        android:layout_height="47dp"
+        android:layout_alignTop="@+id/and"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginLeft="46dp"
+        android:layout_marginTop="135dp"
+        android:background="@drawable/off_led" />
+
+    <Button
+        android:id="@+id/and"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="82dp"
+        android:background="@drawable/and_gate" />
+
+    <ToggleButton
+        android:id="@+id/toggle"
+        android:layout_width="37dp"
+        android:layout_height="54dp"
+        android:layout_alignStart="@+id/background"
+        android:layout_alignLeft="@+id/background"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="213dp"
+        android:background="@drawable/toggle_switch"
+        android:textOff=""
+        android:textOn="" />
+
+    <Button
+        android:id="@+id/or"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/and"
+        android:layout_marginBottom="-44dp"
+        android:background="@drawable/or_gate" />
+
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="2dp"
+        android:contentDescription="@string/app_name" />
+
+    <Button
+        android:id="@+id/wire"
+        android:layout_width="62dp"
+        android:layout_height="38dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="344dp"
+        android:text="@string/Wire" />
+
+    <Button
+        android:id="@+id/run"
+        android:layout_width="62dp"
+        android:layout_height="38dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="305dp"
+        android:text="@string/run" />
+
+    <Button
+        android:id="@+id/not"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/or"
+        android:layout_marginBottom="-84dp"
+        android:background="@drawable/not_gate" />
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="64dp"
+        android:layout_height="38dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="267dp"
+        android:text="@string/delete"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="62dp"
+        android:layout_height="38dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="615dp"
+        android:layout_marginLeft="615dp"
+        android:layout_marginTop="348dp"
+        android:text="@string/save" />
+
+
+</RelativeLayout>

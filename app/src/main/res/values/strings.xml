@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LogiSim</string>
+    <string name="delete">delete</string>
+    <string name="run">RUN</string>
+    <string name="led">LED</string>
+    <string name="Wire">wire</string>
+    <string name="save">SAVE</string>
+</resources>
